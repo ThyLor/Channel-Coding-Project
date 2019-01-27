@@ -15,6 +15,6 @@ For each part different settings has been considerd.
 So far, this is the project is the one I'm most proud of because it required me to use jointly my knowledges in telecommunications, 
 linear-algebra, graph mining and probability to solve a real technical problem.
 
-For more details, please see my [Presentation](docs/Presentation.pdf.md) (-:
+For more details, please see my [Presentation](docs/Presentation_CC.pdf) (-:
 
-Keywords: LDPC codes, Permutation Matrices, Message Passing, channel coding simulations
+Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
