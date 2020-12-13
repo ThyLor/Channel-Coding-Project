@@ -13,7 +13,7 @@ The standard can be divided in two parts:
 For each part different settings have been considered. 
 
 So far, this is the project is the one I'm most proud of because it required me to use my knowledge in telecommunication, 
-linear-algebra, graphical models and probability to solve a real technical problem.
+linear-algebra, probabilistic graphical models to solve a technical problem.
 
 For more details, please see my [Presentation](docs/Presentation_CC.pdf) (-:
 
