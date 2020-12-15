@@ -10,9 +10,12 @@ An efficient version of the min-sum and sum-product algorithms which leveraged t
 Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
 
 ### Structure of the folders
-core: help functions.
+core: core functions for the message passing algorithm.
+
 mat_files: preprocessed files containinig information on H.
+
 mex_func: MEX files calling C function from MATLAB® (https://it.mathworks.com/help/matlab/matlab_external/standalone-example.html;jsessionid=7ff3c81c955ddf63a79efb00583c)
+
 simulation: simulation files
 
 ```
