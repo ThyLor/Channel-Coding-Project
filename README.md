@@ -1,6 +1,7 @@
 # Channel-Coding-Project
 ## LDPC codes
-Low-Density Parity-Check (LDPC) codes are a linear error correcting codes defined by a sparse matrix. An LDPC can be represented using a bipartite graph, allowing the decoding phase to be execute via the Message-Passing algorithm.
+Low-Density Parity-Check (LDPC) codes are a block codes: i.e., collection of binary vectors of fixed length. A regular LDPC code has the property that every code digit is contained in the same number of equations each equation contains the same number of code
+symbols. An LDPC can be represented using a bipartite graph, allowing the decoding phase to be execute via the Message-Passing algorithm.
 
 ## This work
 The purpose of this repo is to implement the LDPC encoding and decoding phase of the G.hn ITU G9960 standard proposed by the ITU-T. 
