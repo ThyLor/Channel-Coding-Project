@@ -4,7 +4,7 @@ Low-Density Parity-Check (LDPC) codes are a linear error correcting code defined
 
 ## This work
 The purpose of this repo is to implement the LDPC encoding and decoding phase of the G.hn ITU G9960 standard proposed by the ITU-T. 
-An efficient version of the min-sum and sum-product algorithms which leveraged the properties of permutation matrices has been developed. My formulation allowed me to work on Matlab instead of completely moving to C, obtaining the same performance while saving time and making the implementation simpler. Please, see ror more details, please see my [Presentation](docs/Presentation_CC.pdf)
+An efficient version of the min-sum and sum-product algorithms which leveraged the properties of permutation matrices has been developed. My formulation allowed me to work on Matlab instead of completely moving to C, obtaining the same performance while saving time and making the implementation simpler. Please, see ror more details, please see my [presentation](docs/Presentation_CC.pdf)
 
 
 Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
@@ -15,7 +15,7 @@ mat_files: preprocessed files containinig information on H.
 mex_func: MEX files calling C function from MATLAB® (https://it.mathworks.com/help/matlab/matlab_external/standalone-example.html;jsessionid=7ff3c81c955ddf63a79efb00583c)
 simulation: simulation files
 
-'''bash
+```
 ├── README.md
 ├── code
 │   ├── core
@@ -85,4 +85,4 @@ simulation: simulation files
 │       └── simulation_diffNit.m
 └── docs
     └── Presentation_CC.pdf
-'''
+```
