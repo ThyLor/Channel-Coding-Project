@@ -1,11 +1,11 @@
 # Channel-Coding-Project
 ## LDPC codes
-Low-Density Parity-Check (LDPC) codes are a block codes: i.e., collection of binary vectors of fixed length. A regular LDPC code has the property that every code digit is contained in the same number of equations each equation contains the same number of code
+Low-Density Parity-Check (LDPC) codes are a block codes: i.e., collection of binary vectors of fixed length. A regular LDPC code has the property that every code digit is contained in the same number of equations and each equation contains the same number of code
 symbols. An LDPC can be represented using a bipartite graph, allowing the decoding phase to be execute via the Message-Passing algorithm.
 
 ## This work
 The purpose of this repo is to implement the LDPC encoding and decoding phase of the G.hn ITU G9960 standard proposed by the ITU-T. 
-An efficient version of the min-sum and sum-product algorithms which leveraged the properties of permutation matrices has been developed. My formulation allowed me to work on Matlab instead of completely moving to C, obtaining the same performance while saving time and making the implementation simpler. Please, for more details, please see my [presentation](docs/Presentation_CC.pdf).
+An efficient version of the min-sum and sum-product algorithms which leveraged the properties of permutation matrices has been developed. The formulation allowed me to work on Matlab instead of completely moving to C, obtaining the same performance while saving time and making the implementation simpler. Please, for more details, please see my [presentation](docs/Presentation_CC.pdf).
 
 
 Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
