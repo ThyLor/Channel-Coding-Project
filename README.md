@@ -10,6 +10,22 @@ An efficient version of the min-sum and sum-product algorithms which leveraged t
 
 Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
 
+# Key ideas in the decoding procedure
+### <br><b>(1) - Precompute matrices and vectors from H: </b>
+<br><img src="imgs/key_elems_1.png" width="800">
+<br><img src="imgs/updates_as_linear_maps.png" width="700">
+<br><img src="imgs/llrsnotation.png" width="600">
+### <br><b>(2) - Updates in min-sum and sum-product:</b>
+<br><img src="imgs/minsum_sumproduct_updates.png" width="600">
+### <br><b>(3) - Change from check and variables representation:</b>
+<br><img src="imgs/check_variable_representation.png" width="400">
+#### <br><b>(3.1) - Permutation matrices:</b>
+<br><img src="imgs/permutation_matrix_def.png" width="600">
+#### <br><b>(3.2) - Change of representation as an inverse operation:</b>
+<br><img src="imgs/inverse_as_transpose.png" width="600">
+## <br><b>(4) - Putting everything together:</b>
+<br><img src="imgs/sum_product.png" width="600">
+
 ### Structure of the folders
 core: core functions for the message passing algorithm.
 
