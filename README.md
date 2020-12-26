@@ -17,7 +17,7 @@ Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
 <br><img src="imgs/llrsnotation.png" width="600">
 ### <br><b>(2) - Updates in min-sum and sum-product:</b>
 <br><img src="imgs/minsum_sumproduct_updates.png" width="600">
-### <br><b>(3) - Change from check and variables representation:</b>
+### <br><b>(3) - From check to variables representation and viceversa - a permutation view:</b>
 <br><img src="imgs/check_variable_representation.png" width="400">
 #### <br><b>(3.1) - Permutation matrices:</b>
 <br><img src="imgs/permutation_matrix_def.png" width="600">
