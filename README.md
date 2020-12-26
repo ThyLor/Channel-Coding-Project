@@ -11,7 +11,7 @@ An efficient version of the min-sum and sum-product algorithms which leveraged t
 Keywords: LDPC codes, Permutation Matrices, Message Passing, MC simulations
 
 ## 3) Key ideas in the decoding procedure
-#### <br><b>(3.1) - Precompute matrices and vectors from <i>H<\i>: </b>
+#### <br><b>(3.1) - Precompute matrices and vectors from <i>H</i>: </b>
 <br><img src="imgs/key_elems_1.png" width="800">
 <br><img src="imgs/updates_as_linear_maps.png" width="700">
 <br><img src="imgs/llrsnotation.png" width="600">
