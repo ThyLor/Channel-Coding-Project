@@ -1,4 +1,5 @@
 # Channel-Coding-Project
+
 ## 1) LDPC codes
 Low-Density Parity-Check (LDPC) codes are a block codes: i.e., collection of binary vectors of fixed length. A regular LDPC code has the property that every code digit is contained in the same number of equations and each equation contains the same number of code
 symbols. An LDPC can be represented using a bipartite graph, allowing the decoding phase to be executed via the Message-Passing algorithm. 
